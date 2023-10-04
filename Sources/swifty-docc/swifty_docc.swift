@@ -10,7 +10,7 @@ public class Trial {
     }
     
     /// We don't believe in local testing only production testing.
-    public shipIt() {
+    public func shipIt() {
         print("Give the intern the production rights and watch the architects cry!")
     }
     
