@@ -32,7 +32,7 @@ xcodebuild docbuild \
 xcrun docc process-archive transform-for-static-hosting \
     $DOCC_LOCATION \
     --output-path $DOCS_OUTPUT_PATH \
-    --hosting-base-path "" # add your repo name later
+    --hosting-base-path "swift-docc" # add your repo name later
 
 
 
